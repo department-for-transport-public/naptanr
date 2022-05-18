@@ -9,7 +9,7 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/naptanr)](https://CRAN.R-project.org/package=naptanr)
-[![R-CMD-check](https://github.com/department-for-transport/naptan-r-package/workflows/R-CMD-check/badge.svg)](https://github.com/department-for-transport/naptan-r-package/actions)
+[![R-CMD-check](https://github.com/department-for-transport-public/naptanr/workflows/R-CMD-check/badge.svg)](https://github.com/department-for-transport-public/naptanr/actions)
 <!-- badges: end -->
 
 The goal of naptanr is to allow easy interface between the National
@@ -26,7 +26,7 @@ You can install the development version of naptanr from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("department-for-transport/naptan-r-package")
+devtools::install_github("department-for-transport-public/naptanr")
 ```
 
 ## Usage

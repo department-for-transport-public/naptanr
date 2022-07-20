@@ -1,3 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+LICENSE.md
+README.Rmd
+cran-comments.md
+renv
+renv.lock
+security_check.md

@@ -16,8 +16,10 @@
 #' 
 #' @examples 
 #' 
+#' \dontrun{
 #' #Return data for all ATCO areas 
 #' call_naptan()
+#' }
 #' 
 #' #Return data for a single ATCO area
 #' call_naptan(atco = "050")

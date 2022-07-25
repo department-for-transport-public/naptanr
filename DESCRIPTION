@@ -6,7 +6,7 @@ Authors@R:
     person("Tom", "Westlake", , "tom.westlake@dft.gov.uk", role = c("aut")),
     person("Francesca", "Bryden", , "francesca.bryden@dft.gov.uk", role = c("aut", "cre")),
     person("Sara", "Smith", , "sara.smith@dft.gov.uk", role = c("aut")))
-Description: The NaptanR package makes it easy to call the National Public Transport Access Nodes (Naptan) API (<https://naptan.api.dft.gov.uk/swagger/index.html>). This allows users to download Naptan transport information, for the full dataset, by ATCO code, or by name of region.  
+Description: The NaptanR package makes it easy to call the National Public Transport Access Nodes (Naptan) API (<https://naptan.api.dft.gov.uk/swagger/index.html>). This allows users to download Naptan transport information, for the full dataset, by ATCO region code, or by name of region.  
 License: MIT + file LICENSE
 Imports:
     httr, data.table

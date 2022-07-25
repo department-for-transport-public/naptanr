@@ -19,7 +19,6 @@
 #' \dontrun{
 #' #Return data for all ATCO areas 
 #' call_naptan()
-#' }
 #' 
 #' #Return data for a single ATCO area
 #' call_naptan(atco = "050")
@@ -27,7 +26,7 @@
 #' #Return data for multiple atco codes
 #' call_naptan(atco = c("050", "290")) 
 #' 
-#' 
+#' }
 
 call_naptan <- function(atco = NULL){
   

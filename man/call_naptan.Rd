@@ -18,6 +18,7 @@ Call the Naptan API for all, or for specified ATCO codes. Returns a data frame o
 }
 \examples{
 
+\dontrun{
 #Return data for all ATCO areas 
 call_naptan()
 
@@ -27,5 +28,5 @@ call_naptan(atco = "050")
 #Return data for multiple atco codes
 call_naptan(atco = c("050", "290")) 
 
-
+}
 }

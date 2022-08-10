@@ -2,7 +2,7 @@
 % Please edit documentation in R/call_naptan.R
 \name{call_naptan}
 \alias{call_naptan}
-\title{Call the Naptan API for all, or for specified ATCO codes. Returns a data frame of Naptan data.}
+\title{Call the NaPTAN API for all, or for specified ATCO codes. Returns a data frame of Naptan data.}
 \usage{
 call_naptan(atco = NULL)
 }
@@ -11,10 +11,14 @@ call_naptan(atco = NULL)
 First three digits of ATCO area codes of interest.
 If provided, will return data for only these ATCO areas. Defaults to NULL.
 
-To return a lookup of current valid atco codes, use the lookup_atco_codes() function.}
+To return a lookup of current valid ATCO codes, use the lookup_atco_codes() function.}
+}
+\value{
+Returns a data frame of NaPTAN data containing transport access node information.
+See \url{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides} for more information.
 }
 \description{
-Call the Naptan API for all, or for specified ATCO codes. Returns a data frame of Naptan data.
+Call the NaPTAN API for all, or for specified ATCO codes. Returns a data frame of Naptan data.
 }
 \examples{
 

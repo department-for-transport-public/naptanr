@@ -11,6 +11,10 @@ lookup_atco_codes(area_name = "", country = "")
 
 \item{country}{string of country code ("ENG", "SCO", "WAL" or "GB"). Default is blank, which returns a full lookup table.}
 }
+\value{
+A data frame containing two columns, "AreaName" a character column containing names of geographic regions
+and AtcoAreaCode, a character column containing corresponding ATCO codes for these areas.
+}
 \description{
 Return a lookup table of all permitted ATCO codes and area names for a specified area string and/or country
 }

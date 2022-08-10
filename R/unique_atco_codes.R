@@ -15,6 +15,9 @@ get_atco_codes <- function(){
 #' @param area_name string of partial or complete area name. Default is blank, which returns a full lookup table.
 #' @param country string of country code ("ENG", "SCO", "WAL" or "GB"). Default is blank, which returns a full lookup table.
 #' 
+#' @return A data frame containing two columns, "AreaName" a character column containing names of geographic regions 
+#' and AtcoAreaCode, a character column containing corresponding ATCO codes for these areas.
+#' 
 #' @examples 
 #' #Return all ATCO codes
 #' lookup_atco_codes()

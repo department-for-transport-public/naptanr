@@ -2,10 +2,10 @@
 % Please edit documentation in R/unique_atco_codes.R
 \name{get_atco_codes}
 \alias{get_atco_codes}
-\title{Return a vector of all permitted ATCO region codes in Naptan}
+\title{Return a vector of all permitted ATCO region codes in NaPTAN}
 \usage{
 get_atco_codes()
 }
 \description{
-Return a vector of all permitted ATCO region codes in Naptan
+Return a vector of all permitted ATCO region codes in NaPTAN
 }

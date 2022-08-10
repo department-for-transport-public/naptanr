@@ -1,4 +1,4 @@
-#' Return a vector of all permitted ATCO region codes in Naptan
+#' Return a vector of all permitted ATCO region codes in NaPTAN
 #'  
 #' @name get_atco_codes
 

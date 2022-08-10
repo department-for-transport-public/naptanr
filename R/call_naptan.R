@@ -1,4 +1,4 @@
-#' Call the Naptan API for all, or for specified ATCO codes. Returns a data frame of Naptan data.
+#' Call the NaPTAN API for all, or for specified ATCO codes. Returns a data frame of Naptan data.
 #'  
 #' @name call_naptan
 #' @export

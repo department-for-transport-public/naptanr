@@ -1,6 +1,6 @@
 Package: naptanr
 Title: Call the 'NaPTAN' API Through R
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(
     person("Tom", "Westlake", , "tom.westlake@dft.gov.uk", role = c("aut")),

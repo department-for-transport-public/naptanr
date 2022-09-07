@@ -15,15 +15,19 @@ test_that("output is in expected format", {
 # Test using AtocCode (300)
 output <- call_naptan(atco = 300)
 test_that("output as expected using atco == 300", {
-  expect_equal(nrow(output), 4832)
   expect_equal(ncol(output), 43)
   expect_equal(names(output)[28:31], c("Easting", "Northing", "Longitude", "Latitude"))
 })
 
 # Test using multiple Atco codes
-output <- call_naptan(atco = c(300, 511, 690))
+output <- call_naptan(atco = c(300, 690))
 test_that("output as expected using multiple Atco codes", {
-  expect_equal(nrow(output), 7104)
+  expect_true(nrow(output) > nrow(call_naptan(atco = 300)))
+  expect_equal(nrow(output),
+               sum(
+                 nrow(call_naptan(atco = 300)),
+                 nrow(call_naptan(atco = 690))
+               ))
   expect_equal(ncol(output), 43)
   expect_equal(names(output)[28:31], c("Easting", "Northing", "Longitude", "Latitude"))
 })

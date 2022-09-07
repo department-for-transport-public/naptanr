@@ -14,7 +14,7 @@ To see a data frame of current valid atco codes and region names, use the lookup
 }
 \value{
 Returns a data frame of NaPTAN data containing transport access node information.
-See \url{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides} for more information.
+See \href{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides}{NaPTAN data set guidance} for more information.
 }
 \description{
 Call the Naptan API for a partial or full region name. Returns a data frame of Naptan data.

@@ -1,9 +1,7 @@
-## Resubmission
-This is a resubmission. In this version I have:
+## Update
+This is an update to an existing package. In this version I have:
 
-* Ensured formatting of DESCRIPTION file meets CRAN standards (wrapping API and package names in single quotes, and not starting the description with the package name)
-
-* Added value to all function documentation documenting the returned output of each function. 
+* Fixed existing problems with the package (improved testing to not fail when new data is added to the underlying API)
 
 ## R CMD check results
 

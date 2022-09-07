@@ -9,7 +9,7 @@ status](https://www.r-pkg.org/badges/version/naptanr)](https://CRAN.R-project.or
 [![R-CMD-check](https://github.com/department-for-transport-public/naptanr/workflows/R-CMD-check/badge.svg)](https://github.com/department-for-transport-public/naptanr/actions)
 <!-- badges: end -->
 
-The goal of naptanr is to allow easy interface between the National Public Transport Access Nodes (NaPTAN) API and R. The NaPTAN dataset provides the location and type of every location you can join or leave public transport in England, Scotland and Wales. Further details and documentation on the NaPTAN API can be found [here](https://naptan.api.dft.gov.uk/swagger/index.html).
+The goal of naptanr is to allow easy interface between the National Public Transport Access Nodes (NaPTAN) API and R. The NaPTAN dataset provides the location and type of every location you can join or leave public transport in England, Scotland and Wales. Further details and documentation on the NaPTAN API can be found [here](https://www.api.gov.uk/dft/national-public-transport-access-nodes-naptan-api/#national-public-transport-access-nodes-naptan-api).
 
 ## Installation
 

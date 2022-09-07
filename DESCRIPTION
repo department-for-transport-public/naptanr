@@ -6,7 +6,7 @@ Authors@R:
     person("Tom", "Westlake", , "tom.westlake@dft.gov.uk", role = c("aut")),
     person("Francesca", "Bryden", , "francesca.bryden@dft.gov.uk", role = c("aut", "cre")),
     person("Sara", "Smith", , "sara.smith@dft.gov.uk", role = c("aut")))
-Description: An R wrapper for pulling data from the National Public Transport Access Nodes ('NaPTAN') API (<https://naptan.api.dft.gov.uk/swagger/index.html>). This allows users to download 'NaPTAN' transport information, for the full dataset, by ATCO region code, or by name of region.  
+Description: An R wrapper for pulling data from the National Public Transport Access Nodes ('NaPTAN') API (<https://www.api.gov.uk/dft/national-public-transport-access-nodes-naptan-api/#national-public-transport-access-nodes-naptan-api>). This allows users to download 'NaPTAN' transport information, for the full dataset, by ATCO region code, or by name of region.  
 License: MIT + file LICENSE
 Imports:
     httr, data.table

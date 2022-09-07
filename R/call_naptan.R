@@ -15,7 +15,7 @@
 #' @importFrom data.table fread
 #' 
 #' @return Returns a data frame of NaPTAN data containing transport access node information. 
-#' See \url{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides} for more information.
+#' See \href{https://www.gov.uk/government/publications/national-public-transport-access-node-schema}{NaPTAN data set guidance} for more information.
 #' 
 #' @examples 
 #' 
@@ -83,7 +83,7 @@ call_naptan <- function(atco = NULL){
 #' To see a data frame of current valid atco codes and region names, use the lookup_atco_codes() function.
 #' 
 #' @return Returns a data frame of NaPTAN data containing transport access node information. 
-#' See \url{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides} for more information.
+#' See \href{https://www.gov.uk/government/publications/national-public-transport-access-node-schema/naptan-and-nptg-data-sets-and-schema-guides}{NaPTAN data set guidance} for more information.
 #' 
 #' @examples 
 #' 
